@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - TechVision Solutions</title>
+    <title>Contact - TechVision Solutions</title>
     <link rel="stylesheet" href="../styles/common.css">
-    <link rel="stylesheet" href="../styles/about.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 </head>
 
 <body>
@@ -22,48 +22,72 @@
         </ul>
     </nav>
 
+    <header class="contact-hero">
+        <div class="contact-content">
+            <h1 class="fade-in">Get in Touch</h1>
+            <p class="slide-up">Let's discuss how we can help your business grow</p>
+        </div>
+    </header>
+
     <main>
-        <section class="about-hero">
-            <div class="about-content fade-in">
-                <h1>Our Story</h1>
-                <p>Leading the way in technological innovation since 2020</p>
+        <section class="contact-grid">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="info-item">
+                    <div class="icon">📍</div>
+                    <div class="details">
+                        <h3>Address</h3>
+                        <p>123 Tech Street<br>Innovation City, IC 12345</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">📞</div>
+                    <div class="details">
+                        <h3>Phone</h3>
+                        <p>(555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">✉️</div>
+                    <div class="details">
+                        <h3>Email</h3>
+                        <p>info@techvision.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send us a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </section>
 
-        <section class="mission-vision">
-            <div class="container">
-                <div class="mission slide-up">
-                    <h2>Our Mission</h2>
-                    <p>To empower businesses through innovative technology solutions that drive growth and success.</p>
-                </div>
-                <div class="vision slide-up">
-                    <h2>Our Vision</h2>
-                    <p>To be the leading force in digital transformation, setting new standards in technological
-                        excellence.</p>
-                </div>
+        <section class="map">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202844.8913472017!2d-122.04109805!3d37.40280355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1738187720674!5m2!1sen!2s"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
 
-        <section class="team">
-            <h2>Meet Our Team</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <div class="member-image"></div>
-                    <h3>John Doe</h3>
-                    <p>CEO &amp; Founder</p>
-                </div>
-                <div class="team-member">
-                    <div class="member-image"></div>
-                    <h3>Jane Smith</h3>
-                    <p>CTO</p>
-                </div>
-                <div class="team-member">
-                    <div class="member-image"></div>
-                    <h3>Mike Johnson</h3>
-                    <p>Lead Developer</p>
-                </div>
-            </div>
-        </section>
+
     </main>
 
     <footer>
